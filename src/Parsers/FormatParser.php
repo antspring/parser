@@ -13,4 +13,5 @@ abstract class FormatParser
 
     abstract public function init():void;
     abstract public function toXml():void;
+    abstract public function toJson():void;
 }

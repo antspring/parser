@@ -36,4 +36,9 @@ class Json extends FormatParser
             }
         }
     }
+
+    public function toJson(): void
+    {
+        echo 'File is already Json';
+    }
 }
