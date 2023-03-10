@@ -1,7 +1,8 @@
 {
+    "name": "antspring/parser",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Parser\\": "src/"
         }
     }
 }

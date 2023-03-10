@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Parsers;
+namespace Parser\Parsers;
 
 abstract class FormatParser
 {

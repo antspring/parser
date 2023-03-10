@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace Parser;
 
-use App\Parsers\FormatParser;
+use Parser\Parsers\FormatParser;
 
 class Parser
 {
