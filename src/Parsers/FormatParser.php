@@ -5,7 +5,7 @@ namespace App\Parsers;
 abstract class FormatParser
 {
     protected string $content;
-    protected array $data;
+    protected mixed $data;
 
     public function __construct(protected string $path)
     {
