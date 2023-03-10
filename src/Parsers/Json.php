@@ -14,7 +14,7 @@ class Json extends FormatParser
     {
         $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><datalist></datalist>');
 
-        $this->arrayToXMl($this->data, $xml);
+        $this->arrayToXml($this->data, $xml);
 
         $name = basename($this->path);
 
@@ -35,5 +35,10 @@ class Json extends FormatParser
                 $xml->addChild($key, $value);
             }
         }
+    }
+
+    public function toJson(): void
+    {
+        echo 'File is already Json';
     }
 }

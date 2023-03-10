@@ -15,8 +15,13 @@ class Parser
         $this->parser->init();
     }
 
-    public function toXML()
+    public function toXml()
     {
-        $this->parser->toXML();
+        $this->parser->toXml();
+    }
+
+    public function toJson()
+    {
+        $this->parser->toJson();
     }
 }
